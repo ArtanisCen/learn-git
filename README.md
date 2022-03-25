@@ -82,6 +82,38 @@ git rm -f xxxx
 git rm --cached xxxx
 ```
 
+**撤销对文件的修改**
+
+```
+git checkout --  xxxx
+```
+
+**查看提交历史**
+
+```
+git log
+```
+
+**查看在一行上显示最近两条提交历史**
+
+```
+git log -2 --pretty=oneline
+```
+
+**回退到历史版本**
+
+```
+git log --pretty=oneline
+
+get reset --hrad<版本号>
+
+
+```
+
+
+
+
+
 
 
 **SSH key**
